@@ -2,14 +2,26 @@ body {
   font-family: 'Raleway', sans-serif;
   }
 
+  h1{
+    font-size:3.5rem;
+  }
+
   a{
     font-family: 'Raleway', sans-serif;
     font-weight:500;
   }
 
+
+
+
   #landing-page{
     background-color: #00246c ;
-    height:57rem ;
+    height:100vh ;
+  }
+
+  #section-1{
+    background-color:#febd11;
+    height:100vh;
   }
 
   .golden{
@@ -26,4 +38,12 @@ body {
     position:absolute;
     top: 50%;
     }
+
+    .p-middle{
+      margin:0;
+      padding:0;
+      position:absolute;
+      top: 58%;
+      font-size:1.5rem;
+      }
 
