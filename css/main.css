@@ -1,6 +1,5 @@
 body {
   font-family: 'Raleway', sans-serif;
-  
   }
 
   a{
@@ -20,6 +19,11 @@ body {
   .navbar a:hover {
     color:#ffffff;
   }
-  
-  
+
+  .text-middle{
+    margin:0;
+    padding:0;
+    position:absolute;
+    top: 50%;
+    }
 
