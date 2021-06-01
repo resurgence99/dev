@@ -96,6 +96,7 @@ a{
 
   .img-me{
     scroll-behavior: none;
+    position:absolute;
   }
 
 
