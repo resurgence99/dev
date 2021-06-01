@@ -46,7 +46,9 @@ a{
     height:100vh;
     background-color:#005AB5;
   }
-
+.blue{
+  color:#005AB5;
+}
 .golden{
     color: #febd11;
   }
