@@ -44,7 +44,7 @@ a{
   #section-1{
     
     height:100vh;
-    background-color:#febd11;
+    background-color:#005AB5;
   }
 
 .golden{
@@ -84,14 +84,13 @@ a{
 
     /* For first section page split */
 .first-half-s1{
-  
-  
+  background-color:#febd11;
+  height:100vh;
 
 }
 
 .second-half-s1{
   background-color:#005AB5;
-  height:100vh;
   }
 
   .img-me{
