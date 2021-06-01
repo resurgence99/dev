@@ -19,7 +19,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .page-cont{
-  padding-top: 0.6px;
+  
 }
 
 body {
@@ -28,6 +28,7 @@ body {
 
 h1{
     font-size:3.5rem;
+    font-weight: 650;
   }
 
 a{
@@ -49,6 +50,10 @@ a{
     color: #febd11;
   }
 
+  .white{
+    color: white;
+  }
+
 .navbar a:hover {
     color:#ffffff;
   }
@@ -65,7 +70,7 @@ a{
       padding:0;
       position:absolute;
       top: 58%;
-      font-size:1.5rem;
+      font-size:1.4rem;
       }
 
   
