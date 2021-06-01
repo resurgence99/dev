@@ -90,9 +90,14 @@ a{
 }
 
 .second-half-s1{
-  background-color:#ffffff;
+  background-color:#005AB5;
   height:100vh;
+  }
 
-}
+  .img-me{
+    scroll-behavior: none;
+  }
+
+
   
 
