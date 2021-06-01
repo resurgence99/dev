@@ -95,8 +95,7 @@ a{
   }
 
   .img-me{
-    scroll-behavior: none;
-    position:absolute;
+    max-width: 100%;
   }
 
 
