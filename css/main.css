@@ -27,7 +27,7 @@ body {
   }
 
 h1{
-    font-size:3.5rem;
+    font-size:4rem;
     font-weight: 650;
   }
 
@@ -38,12 +38,12 @@ a{
 
 #landing-page{
     background-color: #005AB5 ;
-    height:98vh ;
+    height:100vh ;
   }
 
   #section-1{
     background-color:#febd11;
-    height:98vh;
+    height:100vh;
   }
 
 .golden{
@@ -72,6 +72,22 @@ a{
       top: 58%;
       font-size:1.4rem;
       }
+
+      span.anchor {
+        margin-top: -54px; /* height of nav, in this case 54px */
+        display: block;
+        height: 54px; /* height of nav, in this case 54px */
+        visibility: hidden;
+        position: relative;
+    }
+
+.landing-image{
+
+position:relative;
+top:25%;
+left:10%;
+
+}
 
   
 
