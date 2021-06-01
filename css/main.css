@@ -42,8 +42,9 @@ a{
   }
 
   #section-1{
-    background-color:#febd11;
+    
     height:100vh;
+    background-color:#febd11;
   }
 
 .golden{
@@ -81,13 +82,17 @@ a{
         position: relative;
     }
 
-.landing-image{
-
-position:relative;
-top:25%;
-left:10%;
+    /* For first section page split */
+.first-half-s1{
+  
+  
 
 }
 
+.second-half-s1{
+  background-color:#ffffff;
+  height:100vh;
+
+}
   
 
