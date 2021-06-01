@@ -1,20 +1,17 @@
 body {
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
 
-  h1{
+h1{
     font-size:3.5rem;
   }
 
-  a{
+a{
     font-family: 'Raleway', sans-serif;
     font-weight:500;
   }
 
-
-
-
-  #landing-page{
+#landing-page{
     background-color: #00297c ;
     height:100vh ;
   }
@@ -24,26 +21,28 @@ body {
     height:100vh;
   }
 
-  .golden{
+.golden{
     color: #febd11;
   }
 
-  .navbar a:hover {
+.navbar a:hover {
     color:#ffffff;
   }
 
-  .text-middle{
+.text-middle{
     margin:0;
     padding:0;
     position:absolute;
     top: 50%;
     }
 
-    .p-middle{
+.p-middle{
       margin:0;
       padding:0;
       position:absolute;
       top: 58%;
       font-size:1.5rem;
       }
+
+  
 
