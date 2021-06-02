@@ -18,7 +18,12 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--scrollbarBG);
 }
 
-
+.vh100{
+  height: 100vh;
+}
+.gold-bckgrnd{
+  background-color: goldenrod;
+}
 body {
     font-family: 'Raleway', sans-serif;
   }
@@ -84,13 +89,14 @@ a{
 
     /* For first section page split */
 .first-half-s1{
-  background-color:#febd11;
+  background-color:white;
   height:100vh;
 
 }
 
 .second-half-s1{
-  background-color:#00297c;
+  background-color:#febd11;
+  height:100vh;
   }
 
   .img-me{
@@ -101,7 +107,20 @@ a{
     padding-top:70px;
   }
 
-  /* Social Media Section */
+  /* Second page */
 
+  #section-2{
+    height:100vh;
+    background-color:white;
+  }
 
-
+  .first-half-s2{
+    background-color:white;
+    height:100vh;
+  
+  }
+  
+  .second-half-s2{
+    background-color:#005daa;
+    }
+  
