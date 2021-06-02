@@ -30,8 +30,14 @@ body::-webkit-scrollbar-thumb {
 
 /* The content inside each page section */
 .cont-middle{
-  padding: 40% 4% 3% 4%;
+  /* padding: 40% 4% 3% 4%; */
   /* top left bottom right */
+
+  margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -72,11 +78,16 @@ a{
   }
 
 .text-middle{
-    margin:0;
+     margin:0;
     margin-left: 10px;
     padding:0 0 0 0;
     position:absolute;
+    top: 50%; 
+    /* margin: 0;
+    position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
     }
 
 .p-landing{
@@ -99,7 +110,17 @@ a{
   }
 
   .img-me{
+    /* margin: 50% 0% 50% 0%;
     max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
 
