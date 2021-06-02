@@ -22,7 +22,16 @@ body::-webkit-scrollbar-thumb {
   height: 100vh;
 }
 .gold-bckgrnd{
-  background-color: goldenrod;
+  background-color: #febd11;
+}
+.blue-bckgrnd{
+  background-color: #00297c;
+}
+
+/* The content inside each page section */
+.cont-middle{
+  padding: 40% 4% 3% 4%;
+  /* top left bottom right */
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -64,28 +73,18 @@ a{
 
 .text-middle{
     margin:0;
-    padding:0;
+    margin-left: 10px;
+    padding:0 0 0 0;
     position:absolute;
     top: 50%;
     }
 
-.p-middle{
-      margin:0;
-      padding:0;
-      position:absolute;
-      top: 58%;
+.p-landing{
       font-size:1.4rem;
       }
       
 
 
-      span.anchor {
-        margin-top: -54px; /* height of nav, in this case 54px */
-        display: block;
-        height: 54px; /* height of nav, in this case 54px */
-        visibility: hidden;
-        position: relative;
-    }
 
     /* For first section page split */
 .first-half-s1{
@@ -103,9 +102,6 @@ a{
     max-width: 100%;
   }
 
-  h2{
-    padding-top:70px;
-  }
 
   /* Second page */
 
