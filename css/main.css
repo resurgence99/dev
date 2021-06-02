@@ -21,11 +21,21 @@ body::-webkit-scrollbar-thumb {
 .vh100{
   height: 100vh;
 }
+
 .gold-bckgrnd{
   background-color: #febd11;
 }
+
+.gold-bckgrnd-lt{
+  background-color: #fbf9f1;
+}
+
 .blue-bckgrnd{
-  background-color: #00297c;
+  background-color: #005AB5;
+}
+
+.blue-bckgrnd-lt{
+  background-color: #e8f3fd;
 }
 
 /* The content inside each page section */
