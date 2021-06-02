@@ -73,20 +73,13 @@ h3{
   font-weight: 500;
 }
 
-a{
-    font-family: 'Raleway', sans-serif;
-    font-weight:500;
-  }
 
 #landing-page{
     background-color: #005AB5 ;
     height:100vh ;
   }
 
-  #section-1{
-    height:100vh;
-    background-color:#00297c;
-  }
+
 .blue{
   color:#00297c;
 }
@@ -98,8 +91,24 @@ a{
     color: white;
   }
 
+  /* The Full Navbar Css */
 .navbar a:hover {
     color:#ffffff;
+  }
+  
+  .navbar a:focus{
+    color:#ffffff;
+  }
+
+  .navbar a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    font-weight:500;
+  }
+
+  button:focus{
+    box-shadow: 0;
+    border: none;
   }
 
 .text-middle{
@@ -134,7 +143,7 @@ a{
   height:100vh;
   }
 
-  .img-me{
+  .img-content{
     /* margin: 50% 0% 50% 0%;
     max-width: 100%;
     display: block;
@@ -165,4 +174,16 @@ a{
   .second-half-s2{
     background-color:#005daa;
     }
-  
+
+    /* focus element has black shadow need to  */
+
+/* Css for content links*/
+.content-link{
+  text-decoration: underline;
+  color: white;
+  font-size: 1rem;
+}
+
+.content-link:hover{
+  color:rgb(216, 216, 216);
+}
