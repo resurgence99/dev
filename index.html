@@ -46,8 +46,30 @@ Color Blind Blue - #005AB5
     <!-- Custom Css -->
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/social.css" rel="stylesheet" type="text/css">
+    <link href="css/preloader.css" rel="stylesheet" type="text/css">
+
+    <!--Preloader JS with 2.5sec delay-->
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function(event) {
+          setTimeout(function()
+                    { document.querySelector('.preloadercontainer').style.display='none';
+                              }, 500);
+    });
+    </script>
+
   </head>
   <body>
+
+    <div class="preloadercontainer">
+    <div class="wrapper">
+      <div class="preloader">
+      <div class="circ1"></div>
+      <div class="circ2"></div>
+      <div class="circ3"></div>
+      <div class="circ4"></div>
+      </div>
+    </div>
+    </div>
 
     <!-- NavBar Bootstrap -->
     <nav data-offset="54" class="sticky-top navbar navbar-expand-lg  " style="background-color:  #005AB5;"; >
