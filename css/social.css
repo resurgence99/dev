@@ -123,6 +123,10 @@
     font-weight: 600;
 }
 
-.social-page{
-   
+.social-page a{
+   text-decoration: none;
+   color:#febd11;
+}
+.social-page a:focus{
+  color:#febd11;
 }
