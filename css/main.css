@@ -187,3 +187,7 @@ h3{
 .content-link:hover{
   color:rgb(216, 216, 216);
 }
+
+.footer-cus{
+font-weight: 600;
+}
