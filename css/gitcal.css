@@ -6,7 +6,9 @@
     --color-calendar-graph-day-L4-bg: #e4a700;
   }
 .git-page{
-    padding:10px 0px 40px 0px;
+    padding:80px 0px 100px 0px;
+    border-top: 3px #037bdd solid;
+    border-bottom: 3px #037bdd solid;
 
 }
 
@@ -207,3 +209,15 @@
       text-decoration: none;
       font-weight: 500;
   }
+
+  .git-icon{
+      font-size: 5rem;
+      align: center;
+      text-align: center;
+      text-decoration: none;
+      
+  }
+
+  .git-icon a{
+      color:#febd11;
+        }
