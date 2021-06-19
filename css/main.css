@@ -83,20 +83,22 @@ img{
     font-size: 2.5rem;
 }
 .area-img{
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
     margin-left: 31%;
 }
+
 .area-h2{
     text-align: center;
     font-weight: 700;
     font-size:1.8rem;
 }
 .area-p{
-    text-align: justify;
+    text-align: center;
     font-weight: 500;
     font-size:1.1rem;
 }
+
 /* Font And background Color Classes */
 .primary-color-text{
     color:#005daa;
@@ -125,7 +127,15 @@ img{
 .cardinal-color-text{
     color:#e02927;
 }
-
+.white-color-text{
+    color:white;
+}
+.orange-color-text{
+    color: #ff7600;
+}
+.green-color-text{
+    color:#009739;
+}
 
 .primary-color-bkgrnd{
     background-color:#005daa;
@@ -153,4 +163,10 @@ img{
 }
 .cardinal-color-bkgrnd{
     background-color:#e02927;
+}
+.orange-color-bkgrnd{
+    background-color: #ff7600;
+}
+.green-color-bkgrnd{
+    background-color:#009739;
 }
