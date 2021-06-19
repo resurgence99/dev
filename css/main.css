@@ -53,14 +53,14 @@ body::-webkit-scrollbar-thumb {
 
 .first-page-content{
     padding-top: 30vh;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
     padding-bottom:32vh;
 }
 
 .h1-landing{
     font-weight: 700;
-    font-size:2.78rem;
+    font-size:2.6rem;
 }
 
 img{
@@ -68,7 +68,7 @@ img{
 }
 
 .p-landing{
-    font-size: 1.0rem;
+    font-size: 0.9rem;
     font-weight: 700;
 }
 
