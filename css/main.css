@@ -60,16 +60,18 @@ body::-webkit-scrollbar-thumb {
 
 .h1-landing{
     font-weight: 700;
-    font-size:2.6rem;
+    font-size:2.78rem;
 }
 
 img{
-    max-width: 100%;
+    max-width: 98%;
 }
 
 .p-landing{
+
     font-size: 0.9rem;
     font-weight: 700;
+    text-align: center; 
 }
 
 .full-bod{
