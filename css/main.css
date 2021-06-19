@@ -43,10 +43,87 @@ body::-webkit-scrollbar-thumb {
     content: none;
 }
 
+.first-page{
+    background-color: white;
+}
+
+.second-page{
+    height:100vh;
+}
+
+.first-page-content{
+    padding-top: 30vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom:32vh;
+}
+
+.h1-landing{
+    font-weight: 700;
+    font-size:2.78rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.p-landing{
+    font-size: 1.0rem;
+    font-weight: 700;
+}
+
+.full-bod{
+    
+}
+
 /* Font And background Color Classes */
 .primary-color-text{
     color:#005daa;
 }
 .secondary-color-text{
     color:#00246c;
+}
+.tertiary-color-text{
+    color:#febd11;
+}
+.cranberry-color-text{
+    color:#d91b5c;
+}
+.darkyellow-color-text{
+    color:#f79725;
+}
+.skyblue-color-text{
+    color:#019fcb;
+}
+.turq-color-text{
+    color:#018d8d;
+}
+.violet-color-text{
+    color:#872175;
+}
+
+
+.primary-color-bkgrnd{
+    background-color:#005daa;
+}
+.secondary-color-bkgrnd{
+    background-color:#00246c;
+}
+.tertiary-color-bkgrnd{
+    background-color:#febd11;
+}
+.cranberry-color-bkgrnd{
+    background-color:#d91b5c;
+}
+.darkyellow-color-bkgrnd{
+    background-color:#f79725;
+}
+.skyblue-color-bkgrnd{
+    background-color:#019fcb;
+}
+.turq-color-bkgrnd{
+    background-color:#018d8d;
+}
+.violet-color-bkgrnd{
+    background-color:#872175;
 }
