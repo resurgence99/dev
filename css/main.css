@@ -77,6 +77,12 @@ img{
     color: #d91b5c;
 }
 
+/* Third page */
+.third-page{
+    background-color:#ff7600;
+    height:100vh;
+}
+
 /* Areas Of Focus */
 .area-h1{
     font-weight: 600;
@@ -163,9 +169,11 @@ img{
 }
 .cardinal-color-bkgrnd{
     background-color:#e02927;
+   
 }
 .orange-color-bkgrnd{
     background-color: #ff7600;
+
 }
 .green-color-bkgrnd{
     background-color:#009739;
