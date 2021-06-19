@@ -48,7 +48,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .second-page{
-    height:100vh;
+    
 }
 
 .first-page-content{
@@ -70,14 +70,33 @@ img{
 .p-landing{
 
     font-size: 0.9rem;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center; 
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #d91b5c;
 }
 
-.full-bod{
-    
+/* Areas Of Focus */
+.area-h1{
+    font-weight: 600;
+    font-size: 2.5rem;
 }
-
+.area-img{
+    width: 180px;
+    height: 180px;
+    margin-left: 31%;
+}
+.area-h2{
+    text-align: center;
+    font-weight: 700;
+    font-size:1.8rem;
+}
+.area-p{
+    text-align: justify;
+    font-weight: 500;
+    font-size:1.1rem;
+}
 /* Font And background Color Classes */
 .primary-color-text{
     color:#005daa;
@@ -102,6 +121,9 @@ img{
 }
 .violet-color-text{
     color:#872175;
+}
+.cardinal-color-text{
+    color:#e02927;
 }
 
 
@@ -128,4 +150,7 @@ img{
 }
 .violet-color-bkgrnd{
     background-color:#872175;
+}
+.cardinal-color-bkgrnd{
+    background-color:#e02927;
 }
