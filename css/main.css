@@ -60,8 +60,26 @@ body::-webkit-scrollbar-thumb {
 
 .h1-landing{
     font-weight: 700;
-    font-size:2.78rem;
+    font-size:3rem;
 }
+
+@media only screen and (max-width: 700px) {
+    .h1-landing{
+        font-weight: 700;
+        font-size:2.4rem;
+    }
+
+    .p-landing{
+
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-align: center; 
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+  }
+
 
 img{
     max-width: 98%;
@@ -74,13 +92,11 @@ img{
     text-align: center; 
     padding-left: 2%;
     padding-right: 2%;
-    color: #d91b5c;
+    color: black;
 }
 
 /* Third page */
 .third-page{
-    background-color:#ff7600;
-    height:100vh;
 }
 
 /* Areas Of Focus */
@@ -91,7 +107,7 @@ img{
 .area-img{
     width: 170px;
     height: 170px;
-    margin-left: 31%;
+    margin-left: 30.5%;
 }
 
 .area-h2{
@@ -178,3 +194,7 @@ img{
 .green-color-bkgrnd{
     background-color:#009739;
 }
+
+
+
+/* Card Slider */
