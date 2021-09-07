@@ -1,200 +1,212 @@
-.open-sans-condensed{
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-.raleway{
-    font-family: 'Raleway', sans-serif;
-}
-
 html {
-    --scrollbarBG: #005AB5;
-    --thumbBG: #febd11;
-    scroll-behavior: smooth;
-  }
-
-  /* Scroll Bar Script */
+  --scrollbarBG: #005AB5;
+  --thumbBG: #febd11;
+}
 body::-webkit-scrollbar {
-    width: 13px;
-    
-  }
+  width: 13px;
+}
 body {
-    scrollbar-width: medium;
-    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  scrollbar-width: medium;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+.vh100{
+  height: 100vh;
+}
+
+.gold-bckgrnd{
+  background-color: #febd11;
+}
+
+.gold-bckgrnd-lt{
+  background-color: #fffdf5;
+}
+
+.blue-bckgrnd{
+  background-color: #005AB5;
+}
+.darkblue-bckgrnd{
+  background-color:#02308a;
+}
+
+.blue-bckgrnd-lt{
+  background-color: #f3f9ff;
+}
+
+/* The content inside each page section */
+.cont-middle{
+  /* padding: 40% 4% 3% 4%; */
+  /* top left bottom right */
+
+  margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+* {
     font-family: 'Raleway', sans-serif;
   }
-body::-webkit-scrollbar-track {
-    background: var(--scrollbarBG);
-  }
-body::-webkit-scrollbar-thumb {
-    background-color: var(--thumbBG) ;
-    border-radius: 6px;
-    border: 3px solid var(--scrollbarBG);
-  }
 
-.navbar-nav{
-    font-weight: 600;
-    font-size:1.1rem;
-}
-
-.dropdown-item{
-    color:#00246c;
-}
-
-.my-dropdown-toggle::after {
-    content: none;
-}
-
-.first-page{
-    background-color: white;
-}
-
-.second-page{
-    
-}
-
-.first-page-content{
-    padding-top: 30vh;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom:32vh;
-}
-
-.h1-landing{
+h1{
+    font-size:4rem;
     font-weight: 700;
-    font-size:3rem;
+  }
+
+h2{
+  font-size: 3.2rem;
+  font-weight: 700;
+  }
+
+h3{
+  font-size: 2rem;
+  font-weight:600;
 }
 
-@media only screen and (max-width: 700px) {
-    .h1-landing{
-        font-weight: 700;
-        font-size:2.4rem;
-    }
+.p-content{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
 
-    .p-landing{
 
-        font-size: 0.7rem;
-        font-weight: 600;
-        text-align: center; 
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-
+#landing-page{
+    background-color: #005AB5 ;
+    height:100vh ;
   }
 
 
-img{
-    max-width: 98%;
+.blue{
+  color:#00297c;
 }
+.golden{
+    color: #febd11;
+  }
+
+  .white{
+    color: white;
+  }
+
+  /* The Full Navbar Css */
+.navbar a:hover {
+    color:#ffffff;
+  }
+  
+  .navbar a:focus{
+    color:#ffffff;
+  }
+
+  .navbar a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    font-weight:500;
+  }
+
+  button:focus{
+    box-shadow: 0;
+    border: none;
+  }
+
+.text-middle{
+     margin:0;
+    margin-left: 10px;
+    padding:0 0 0 0;
+    position:absolute;
+    top: 50%; 
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    }
 
 .p-landing{
+      font-size:1.4rem;
+      }
+      
 
-    font-size: 0.9rem;
-    font-weight: 600;
-    text-align: center; 
-    padding-left: 2%;
-    padding-right: 2%;
-    color: black;
-}
 
-/* Third page */
-.third-page{
-}
 
-/* Areas Of Focus */
-.area-h1{
-    font-weight: 600;
-    font-size: 2.5rem;
-}
-.area-img{
-    width: 170px;
-    height: 170px;
-    margin-left: 30.5%;
+    /* For first section page split */
+.first-half-s1{
+  background-color:white;
+  height:100vh;
+
 }
 
-.area-h2{
-    text-align: center;
-    font-weight: 700;
-    font-size:1.8rem;
-}
-.area-p{
-    text-align: center;
-    font-weight: 500;
-    font-size:1.1rem;
-}
+.second-half-s1{
+  background-color:#febd11;
+  height:100vh;
+  }
 
-/* Font And background Color Classes */
-.primary-color-text{
-    color:#005daa;
-}
-.secondary-color-text{
-    color:#00246c;
-}
-.tertiary-color-text{
-    color:#febd11;
-}
-.cranberry-color-text{
-    color:#d91b5c;
-}
-.darkyellow-color-text{
-    color:#f79725;
-}
-.skyblue-color-text{
-    color:#019fcb;
-}
-.turq-color-text{
-    color:#018d8d;
-}
-.violet-color-text{
-    color:#872175;
-}
-.cardinal-color-text{
-    color:#e02927;
-}
-.white-color-text{
-    color:white;
-}
-.orange-color-text{
-    color: #ff7600;
-}
-.green-color-text{
-    color:#009739;
-}
+  .img-content{
+    /* margin: 50% 0% 50% 0%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 100%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-.primary-color-bkgrnd{
+
+  /* Second page */
+
+  #section-2{
+    height:100vh;
+    background-color:white;
+  }
+
+  .first-half-s2{
+    background-color:white;
+    height:100vh;
+  
+  }
+  
+  .second-half-s2{
     background-color:#005daa;
-}
-.secondary-color-bkgrnd{
-    background-color:#00246c;
-}
-.tertiary-color-bkgrnd{
-    background-color:#febd11;
-}
-.cranberry-color-bkgrnd{
-    background-color:#d91b5c;
-}
-.darkyellow-color-bkgrnd{
-    background-color:#f79725;
-}
-.skyblue-color-bkgrnd{
-    background-color:#019fcb;
-}
-.turq-color-bkgrnd{
-    background-color:#018d8d;
-}
-.violet-color-bkgrnd{
-    background-color:#872175;
-}
-.cardinal-color-bkgrnd{
-    background-color:#e02927;
-   
-}
-.orange-color-bkgrnd{
-    background-color: #ff7600;
+    }
 
-}
-.green-color-bkgrnd{
-    background-color:#009739;
+    /* focus element has black shadow need to  */
+
+/* Css for content links*/
+.content-link{
+  text-decoration: underline;
+  color: white;
+  font-size: 1rem;
 }
 
+.content-link:hover{
+  color:rgb(216, 216, 216);
+}
 
+.footer-cus{
+font-weight: 550;
+}
 
-/* Card Slider */
+/* Css for form in contact page */
+.form-css{
+ padding:7% 7% 0% 7%;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 600;
+ font-size:1.2rem;
+}
+
+.submit-but{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.submit-but button:hover{
+  color:white;
+}
