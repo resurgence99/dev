@@ -346,6 +346,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .section-title h2 {
@@ -513,6 +514,7 @@ section {
   margin-top: -2px;
   border-left: 2px solid #febd11;
   position: relative;
+  font-weight: 450;
 }
 
 .resume .resume-item h4 {
