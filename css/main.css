@@ -105,9 +105,9 @@ img{
 }
 
 .dg-img{
-    height:400px;
-    width:400px;
-    margin-left: 15%;
+    max-width: 470px;
+    margin-left: 1%;
+    overflow: hidden;
 }
 /* Areas Of Focus */
 .area-h1{
